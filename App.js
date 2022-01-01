@@ -1,10 +1,11 @@
 import React, { useState, useEffect } from 'react';
-import { Text, View, StyleSheet, Platform, AsyncStorage } from 'react-native';
+import { Text, View, StyleSheet, Platform} from 'react-native';
 import { Focus } from './src/features/focus/Focus';
 import { FocusHistory } from './src/features/focus/FocusHistory';
 import { Timer } from './src/features/timer/Timer';
 import { colors } from './src/utils/colors';
 import { spacing } from './src/utils/sizes';
+import AsyncStorage from '@react-native-async-storage/async-storage';
 
 const STATUSES = {
   COMPLETE: 1,
