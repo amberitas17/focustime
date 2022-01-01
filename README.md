@@ -1,4 +1,4 @@
-# Sample Snack app
+# Focus Time App
 
 This is a Focus Time App that will create a Pomodoro Technique mobile app platform using React Native
 
